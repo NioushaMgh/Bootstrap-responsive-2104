@@ -1,0 +1,253 @@
+
+@font-face {
+  font-family: 'EtralBold';
+  src: local('EtralBold'), 
+       url('../assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: local('Regular'), 
+       url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Light';
+  src: local('Light'), 
+       url('../assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: local('Bold'), 
+       url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: local('Medium'), 
+       url('../assets/fonts/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: local('Rubik-Medium'), 
+       url('../assets/fonts/Rubik-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: local('Rubik-Bold'), 
+       url('../assets/fonts/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: local('Poppins-SemiBold'), 
+       url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+:root {
+  --blueGradiant: #3b2a9f;
+  --purpleGradient: #5141aa;
+  --orange: #fa8305;
+  --brown: #1c140f;
+}
+
+.f-bold {
+  font-family: 'Bold' !important;
+}
+.f-regular {
+  font-family: 'Regular' !important;
+}
+
+.bg-blueGradiant{
+    background-color: var(--blueGradiant);
+}
+
+.bg-brown{
+  background-color: var(--brown);
+}
+.bg-orange{
+  background-color: var(--orange);
+}
+
+.object_pop {
+  transition: 0.5s;
+}
+
+.object_pop:hover {
+  scale: 110%;
+}
+
+.unity-image{
+  position: absolute;
+  top: 230px;
+  width: 90px;
+  left: 20px;
+}
+
+
+.troller-image{
+  position: relative;
+  left: 150px;
+  width: 450px;
+  height: 570px;
+  top: -50px;
+}
+
+.cry-image{
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 80px;
+  width: 101px;
+  height: 99px;
+}
+
+.unreal-image{
+  position: absolute;
+  width: 60px;
+  height: 64px;
+  margin-top: 100px;
+  margin-left: 420px 
+}
+
+
+.button-see{
+  margin-left: 580px;
+}
+
+.image_Cards {
+  width: 220px;
+  height: 250px;
+  cursor: pointer;
+} 
+
+.card-trans:hover{
+  opacity: 50%;
+  scale:90%
+}
+
+.title-cards:hover{
+  .fire{
+    scale: 110%;
+  }
+}
+
+.projects-image{
+  width: 380px;
+  height: 220px;
+}
+.projects-image2{
+  width: 240px;
+  height: 220px;
+}
+
+.image-project3{
+  width: 400px;
+  height: 223px;
+}
+
+.search{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 18px;
+  padding-right: 50px;
+  margin-right: 20px;
+  color: gray;
+  font-family: 'Light' !important;
+}
+
+.div-5{
+  font-family: 'EtralBold' !important;
+}
+
+.topbar{
+  font-family: 'Regular' !important;
+}
+
+.btn.bg-orange.text-white:hover{
+  background-color: #FA8305 !important;
+}
+
+.text.f-bold {
+  color: #FA8305 !important;
+  font-family: 'Bold' !important;
+}
+
+.text-white.work{
+  font-family: 'Bold' !important;
+  white-space: pre-line;
+  margin-top: -70px!important;
+}
+
+.my-5{
+  font-family: 'Medium' !important;
+  white-space: pre-line;
+}
+
+.btn.btn-lg.bg-orange.object_pop.text-white.rounded-pill.text-xxs{
+  font-family: 'Medium' !important;
+  font-size: 16px;
+}
+
+.text-white.fw-normal{
+  font-family: 'Rubik-Bold';
+}
+
+.button-see.object_pop.rounded.opacity-50.text-black.d-md-none.d-sm-none.d-lg-inline{
+  font-family: 'Rubik-Medium'!important;
+  background-color: #5141AA !important;
+  color:white !important;
+  border-radius: 10px;
+  width: 139px;
+  height: 57px;
+  margin-left: 640px;
+  border-color: #5141aa;
+}
+
+.d-flex.row.container-lg.mx-auto.aling-items-center{
+  margin-top: 57px;
+}
+
+.custom-margin {
+  margin-top: 33px;
+}
+
+.row > .col-md-4.mb-3 {
+  margin-bottom: 0; /* Remove default margin bottom */
+  align-items: center;
+}
+
+.light-font {
+    font-family: 'Light', sans-serif !important;
+}
+
+
+
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none"><path stroke="%23fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M0 12h24"/><path stroke="%23fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M0 24h24"/></svg>');
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: -3px;
+}
+
+#followers svg {
+  transition: transform 0.3s ease;
+}
+
+#followers:hover svg {
+  transform: scale(1.5); 
+}
+
+
+.unreal-image {
+    position: absolute;
+    margin-top: 118px;
+    margin-right: 351px;
+}
+
+.cry-image{
+  position: absolute;
+  margin-top: 102px;
+    margin-right: 510px;
+}
