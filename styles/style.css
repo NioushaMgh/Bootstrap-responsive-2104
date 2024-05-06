@@ -251,3 +251,8 @@
   margin-top: 102px;
     margin-right: 510px;
 }
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; 
+}
